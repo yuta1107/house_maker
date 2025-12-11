@@ -2,7 +2,7 @@
   margin-top: 20px;
 }
 .sliderArea {
-  width: 55%; /* 例：親要素の半分くらいの幅にするなど、レイアウトに合わせて調整 */
+  width: 55%;
   max-width: 100%;
   padding: 0 0 0 225px;
   margin: 30px auto 0;
@@ -15,9 +15,9 @@
   margin: 0 5px;
 }
 .slick-slide img {
-  width: 100%;       /* 親要素いっぱいに */
-  height: 400px;     /* 高さを固定（好みの高さに） */
-  object-fit: cover; /* 比率を保ってトリミング */
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
 .slick-prev,
 .slick-next {
@@ -62,7 +62,7 @@
     max-width: 100%;
     padding: 0;
   }
-  
+
   .slick-slide img {
     width: 100%;
     height: 200px;
